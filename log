@@ -183,3 +183,27 @@ exercises.c:68:7: error: unused variable ‘aux3’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 7475c2a
+Thu 14 Mar 2024 09:18:16 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:75:12: error: expected ‘(’ before ‘{’ token
+   75 |     else if{
+      |            ^
+      |            (
+exercises.c:76:12: error: statement with no effect [-Werror=unused-value]
+   76 |       (arr1[aux1] > arr2[aux2]
+      |       ~~~~~^~~~~~~~
+exercises.c:79:14: error: expected ‘;’ before ‘}’ token
+   79 |       aux3++;
+      |              ^
+      |              ;
+   80 |     }
+      |     ~         
+exercises.c:68:7: error: unused variable ‘aux3’ [-Werror=unused-variable]
+   68 |   int aux3 = 0;
+      |       ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+e986430
