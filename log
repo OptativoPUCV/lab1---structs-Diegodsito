@@ -140,3 +140,16 @@ exercises.c:72:5: error: invalid type argument of unary ‘*’ (have ‘int’)
       |     ^~~~~~~~~~
 Compilation failed
 a3b4cfd
+Thu 14 Mar 2024 09:02:03 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:70:16: error: lvalue required as left operand of assignment
+   70 |     &result[i] = arr1[i];
+      |                ^
+exercises.c:72:16: error: lvalue required as left operand of assignment
+   72 |     &result[i] = arr2[i - size1];
+      |                ^
+Compilation failed
+d29f927
