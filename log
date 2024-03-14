@@ -127,3 +127,16 @@ Thu 14 Mar 2024 09:00:22 PM UTC:
  tests:  0|4
 total_score: 30/70
 7bd2b04
+Thu 14 Mar 2024 09:01:14 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:70:5: error: invalid type argument of unary ‘*’ (have ‘int’)
+   70 |     *result[i] = arr1[i];
+      |     ^~~~~~~~~~
+exercises.c:72:5: error: invalid type argument of unary ‘*’ (have ‘int’)
+   72 |     *result[i] = arr2[i - size1];
+      |     ^~~~~~~~~~
+Compilation failed
+a3b4cfd
