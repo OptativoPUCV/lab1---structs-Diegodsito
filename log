@@ -103,3 +103,21 @@ Thu 14 Mar 2024 08:49:21 PM UTC:
  tests:  0|4
 total_score: 30/70
 fa23b8d
+Thu 14 Mar 2024 09:00:08 PM UTC: 
+ exercises.c | 13 +++++++++++--
+ 1 file changed, 11 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:74:3: error: ‘n’ undeclared (first use in this function); did you mean ‘yn’?
+   74 |   n
+      |   ^
+      |   yn
+exercises.c:74:3: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:74:4: error: expected ‘;’ before ‘}’ token
+   74 |   n
+      |    ^
+      |    ;
+   75 | }
+      | ~   
+Compilation failed
+24aff6a
