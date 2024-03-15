@@ -301,3 +301,18 @@ exercises.c:167:1: error: control reaches end of non-void function [-Werror=retu
 cc1: all warnings being treated as errors
 Compilation failed
 306e990
+Fri 15 Mar 2024 10:16:58 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:1:
+exercises.c: In function ‘crearListaEnlazada’:
+exercises.c:168:10: error: ‘nuevoNodo’ undeclared (first use in this function)
+  168 |   return nuevoNodo;
+      |          ^~~~~~~~~
+exercises.c:168:10: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:169:1: error: control reaches end of non-void function [-Werror=return-type]
+  169 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+f75da64
